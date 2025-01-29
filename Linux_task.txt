@@ -1,0 +1,19 @@
+11) create a new folder “test_new” in the home directory.
+
+    mkdir test_new
+
+12) remove all permissions of the “test_new” directory.
+
+    chmod 000 /test_new        remove all permission
+
+13) create a “new.txt” file in the “test_new” directory
+
+    #chmod 700 /test_new       give permission of read,write and execute
+    #touch /test_new/new.txt   creat file named "new.txt"
+    #chmod 000 /test_new
+
+14) delete the “test_new” directory.
+
+    chmod 700 /test_new     Restore permissions
+    rm -r /test_new         Delete the directory
+    ls
