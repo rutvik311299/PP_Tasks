@@ -39,7 +39,7 @@ int main() {
     }
 
                             
-    for (int i = 0; i < rows; i++) {                       // Step 5: Free the allocated memory
+    for (int i = 0; i < rows; i++) {                       // Free the allocated memory
         free(matrix[i]);                                    // Free each row
     }
     free(matrix);                                       // Free the main array holding row pointers
